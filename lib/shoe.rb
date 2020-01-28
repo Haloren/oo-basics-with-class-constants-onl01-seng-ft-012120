@@ -6,9 +6,12 @@ class Shoe
   # Think about it! When does the BRANDS constant need to be
   # made aware of the brands of the shoes that are being created?
   BRANDS = [] 
-
-  # BRANDS.include?(brand)
-  # BRANDS << brand
+  
+  def brand=(brand)
+    @brand = brand 
+    BRANDS.include?(brand) #include 
+    BRANDS << brand
+  end
 
   def initialize(brand)
     @brand = brand
