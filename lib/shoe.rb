@@ -6,6 +6,7 @@ class Shoe
     # made aware of the brands of the shoes that are being created?
   BRANDS = [] 
 
+  # BRANDS.iclude?
   # BRANDS << brand
 
   def initialize(brand)
