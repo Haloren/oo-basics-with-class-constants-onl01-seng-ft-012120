@@ -12,7 +12,7 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
-  deg genre= (genre)
+  deg genre=(genre)
     @genre = genre
     GENRES << genre 
   end   
