@@ -9,7 +9,7 @@ class Shoe
   
   # def brand=(brand)
   #   @brand = brand 
-  #   BRANDS.include?(brand) #include? 
+  #   BRANDS.include (brand) #include 
   #   BRANDS << brand
   # end
 
