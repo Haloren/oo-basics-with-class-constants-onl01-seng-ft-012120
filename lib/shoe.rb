@@ -13,8 +13,10 @@ class Shoe
   #   BRANDS << brand
   # end
 
-  def initialize(brand)
+  def initialize(brand) #brand is here, no need to make new method
     @brand = brand
+    BRANDS.include?(brand) #include? 
+    BRANDS << brand
   end
 
   def cobble
