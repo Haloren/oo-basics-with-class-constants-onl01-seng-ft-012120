@@ -7,11 +7,11 @@ class Shoe
   # made aware of the brands of the shoes that are being created?
   BRANDS = [] 
   
-  def brand=(brand)
-    @brand = brand 
-    BRANDS.include?(brand) #include 
-    BRANDS << brand
-  end
+  # def brand=(brand)
+  #   @brand = brand 
+  #   BRANDS.include?(brand) #include 
+  #   BRANDS << brand
+  # end
 
   def initialize(brand)
     @brand = brand
