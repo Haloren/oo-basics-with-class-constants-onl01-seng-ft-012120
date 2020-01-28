@@ -7,7 +7,7 @@ class Shoe
   # made aware of the brands of the shoes that are being created?
   BRANDS = [] 
 
-  # BRANDS.include?
+  # BRANDS.include?(brand)
   # BRANDS << brand
 
   def initialize(brand)
